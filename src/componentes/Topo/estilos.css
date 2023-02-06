@@ -1,0 +1,35 @@
+header {
+    padding: 10px 15px;
+}
+
+header div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 150px;
+}
+
+header a {
+    font-size: 18px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #000;
+    padding: 5px;
+}
+
+@media (max-width: 550px) {
+    header div {
+        flex-direction: column;
+    }
+    header nav {
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+        margin-top: 10px;
+        border-top: 1px solid #aaadaf;
+    }
+}

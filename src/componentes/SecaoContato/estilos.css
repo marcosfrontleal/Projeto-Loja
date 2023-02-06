@@ -1,0 +1,55 @@
+.secao-contato {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #05031b;
+}
+
+.contato-container {
+    display: flex;
+    justify-content: center;
+}
+
+.contato-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+}
+
+.contato-conteudo div {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.contato-conteudo img {
+    width: 18px;
+}
+
+.contato-conteudo span {
+    font-size: 14px;
+    margin: 0 0 0 10px;
+}
+
+@media (max-width: 768px) {
+    .secao-contato {
+        padding: 60px 20px;
+    }
+}
+
+@media (max-width: 550px) {
+    .secao-contato {
+        padding: 60px 10px;
+    }
+    .contato-container {
+        flex-direction: column;
+    }
+    .contato-conteudo {
+        align-items: center;
+    }
+    .contato-conteudo div {
+        width: 150px;
+    }
+}
